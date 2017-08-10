@@ -3,6 +3,6 @@
     }
 
     angular
-        .module('blocChat')
+        .module('blocchat-project')
         .controller('HomeCtrl', [HomeCtrl]);
 })();
