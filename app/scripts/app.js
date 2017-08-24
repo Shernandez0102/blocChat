@@ -15,4 +15,5 @@
   }
      angular
          .module('blocchat-project', ['ui.router', 'firebase'])
+         .config(config);
  })();
