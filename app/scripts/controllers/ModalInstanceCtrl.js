@@ -11,6 +11,6 @@
      }
 
      angular
-         .module('blocChat')
+         .module('blocchat-project')
          .controller('ModalInstanceCtrl', ['$uibModalInstance', 'Room', ModalInstanceCtrl]);
  })();

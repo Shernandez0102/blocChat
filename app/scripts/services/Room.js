@@ -15,6 +15,6 @@
   }
 
   angular
-    .module('blocchat-project')
-    .factory('Room', ['$firebaseArray', Room]);
+    .module('blocchat-project', []);
+    .factory('Room', ['$firebaseArray', Room])
 })();
