@@ -1,5 +1,5 @@
 (function() {
-     function ModalInstanceCtrl($uibModalInstance, Room) {
+     function ModalInstanceCtrl($uibModalInstance, Home) {
        this.cancel = function() {
          $uibModalInstance.dismiss();
        }
@@ -12,5 +12,5 @@
 
      angular
          .module('blocchat-project')
-         .controller('ModalInstanceCtrl', ['$uibModalInstance', 'Room', ModalInstanceCtrl]);
+         .controller('ModalInstanceCtrl', ['$uibModalInstance', 'Home', ModalInstanceCtrl]);
  })();
