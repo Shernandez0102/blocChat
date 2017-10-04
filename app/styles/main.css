@@ -1,0 +1,55 @@
+/* ------------------------------------------------
+ +    GLOBAL/SHARED STYLES
+ +------------------------------------------------ */
+ *, *::before, *::after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav, .pagination, .carousel, .panel-title a {
+ cursor: pointer;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100%;
+}
+
+/* MEDIA QUERIES :: Medium and small screens (640px) */
+@media (min-width: 640px){
+  html { font-size: 112%; }
+}
+
+/* MEDIA QUERIES :: Large screens (1024px) */
+@media (min-width: 1024px) {
+  html { font-size: 120%; }
+}
+
+/* ------------------------------------------------
+ +    ROOMS.HTML (chatrooms)
+ +------------------------------------------------ */
+
+ #chatrooms {
+   border-right: 2px solid #ddd;
+   background: rgba(223, 211, 208, 0.3);
+  min-height: 100%;
+   overflow: scroll;
+   display: block;
+   position: fixed;
+ }
+
+ #chatrooms h1 {
+   padding: 20px 20px 0 20px;
+   font-size: 2.5em;
+ }
+
+ #chatrooms ul {
+   list-style: none;
+   font-size: 1.2em;
+  line-height: 2em;
+ }
