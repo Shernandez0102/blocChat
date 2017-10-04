@@ -1,5 +1,5 @@
 (function() {
-     function NewModalCtrl($scope, $uibModalInstance, Room) {
+     function NewRoomModalCtrl($scope, $uibModalInstance, Room) {
        var $modal = this;
 
      /* Close modal without saving changes on click of cancel button or press of Esc button */
@@ -16,5 +16,5 @@
 
      angular
          .module('blocchat-project')
-         .controller('NewRoomModalCtrl', ['$scope''$uibModalInstance', 'Room', NewRoomModalCtrl]);
+         .controller('NewRoomModalCtrl', ['$scope','$uibModalInstance', 'Room', NewRoomModalCtrl]);
  })();
